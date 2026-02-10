@@ -6,6 +6,8 @@ env:
   RUST_BACKTRACE: '1'
 on:
   push:
+    branches:
+    - display
     tags:
     - nightly
   schedule:
